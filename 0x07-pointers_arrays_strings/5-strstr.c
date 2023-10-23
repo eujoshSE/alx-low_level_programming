@@ -6,7 +6,7 @@
 * @needle: The substring to be located.
 *
 * Return: a pointer to the beginning of the substring Else NULL.
-*/
+ */
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
@@ -31,6 +31,6 @@ char *_strstr(char *haystack, char *needle)
 
 		haystack++;
 	}
-	
+
 	return ('\0');
 }
