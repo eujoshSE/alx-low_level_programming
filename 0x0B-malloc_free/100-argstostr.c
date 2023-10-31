@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * astostr - Concatenates all arguments of the program
+ * argstostr - Concatenates all arguments of the program
  * @ac: The number of arguments passed to the program.
  * @av: An array of pointers to the arguments.
  *
  * Return: a pointer to a new string, or NULL if it fails
  */
-char *astostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *str;
 	int a, b, ind, size = ac;
